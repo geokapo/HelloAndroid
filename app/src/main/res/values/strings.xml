@@ -4,6 +4,8 @@
     <string name="pcback">pc</string>
     <string name="logo">logo</string>
     <string name="number">650 555 5555</string>
+    <string name="Udacity">Udacity</string>
     <string name="address">2465 Latham St,Mountain View, CA 94043"</string>
     <string name="web">www.udacity.com</string>
     </resources>
+
