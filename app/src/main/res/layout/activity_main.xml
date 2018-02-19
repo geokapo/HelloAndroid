@@ -45,7 +45,7 @@
         android:textStyle="bold"
         android:fontFamily="sans-serif-thin"
         android:paddingBottom="180dp"
-        android:text="Udacity" />
+        android:text="@string/udacity"/>
    <TextView
        android:id="@+id/adress"
        android:layout_width="wrap_content"
@@ -72,7 +72,9 @@
         android:textStyle="bold"
         android:fontFamily="sans-serif-thin"
         android:paddingBottom="100dp"
-        android:text="@string/web"/>
+        android:text="@string/web"
+        android:autoLink="web"
+        android:textColorLink="#ECEFF1"/>
 
     <TextView
         android:id="@+id/number"
@@ -94,6 +96,7 @@
         android:layout_alignParentBottom="true"
         android:paddingBottom="72dp"
         android:paddingStart="8dp"
+        android:paddingLeft="8dp"
         android:src="@drawable/phone"/>
 
     <ImageView
@@ -101,6 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:paddingStart="8dp"
+        android:paddingLeft="8dp"
         android:paddingBottom="108dp"
         android:src="@drawable/web"/>
 
@@ -109,6 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:paddingStart="8dp"
+        android:paddingLeft="8dp"
         android:paddingBottom="148dp"
         android:src="@drawable/map"/>
 
